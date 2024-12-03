@@ -1,0 +1,36 @@
+{
+  "name": "task-management-api",
+  "version": "1.0.0",
+  "description": "A RESTful API that can perform all CRUD operations.",
+  "main": "server.ts",
+  "repository": "https://github.com/Ola4987/task-manager-api",
+  "author": "Makanjuola",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "mongodb": "^6.11.0",
+    "mongoose": "^8.8.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.10.1",
+    "express-validator": "^6.x.x",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.1",
+    "ts-node": "^10.9.2",
+    "ts-prune": "^0.10.3",
+    "typescript": "^5.7.2"
+  },
+  "scripts": {
+    "dev": "nodemon --config nodemon.json",
+    "format": "prettier --write ."
+  },
+  "resolutions": {
+    "@types/react": "^18.0.0"
+  }
+}

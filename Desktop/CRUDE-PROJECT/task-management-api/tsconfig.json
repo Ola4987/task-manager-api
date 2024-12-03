@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Modern JS features, but compatible with Node.js 12+
+    "module": "CommonJS", // Use "ESNext" if you’re using ESM
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "types": ["node", "express"]
+  },
+  "include": [
+    "*.ts",
+    "controllers/**/*.ts",
+    "models/**/*.ts",
+    "workers/**/*.ts",
+    "routes/**/*.ts" // Add this if you have a routes folder
+  ],
+  "exclude": ["node_modules", "dist"] // Ensure `dist` is excluded
+}

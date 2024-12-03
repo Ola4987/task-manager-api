@@ -1,0 +1,1 @@
+{"root":["../app.ts","../controllers/taskcontrollers.ts","../models/task.ts","../workers/reportworker.ts","../routes/taskroutes.ts"],"version":"5.7.2"}
